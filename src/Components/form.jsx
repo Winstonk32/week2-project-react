@@ -28,12 +28,12 @@ function Form() {
 
     return (
         <div className="flex flex-col items-center justify-center h-screen backdrop-blur-sm bg-black/80">
-            <div className="w-full max-w-md p-20 bg-white shadow-lg rounded-lg transition-all duration-300">
-                <h2 className="text-2xl font-semibold text-center text-gray-800 mb-6">Login-Form</h2>
+            <div className="w-full max-w-prose  p-40 bg-red-200 shadow-lg rounded-lg transition-all duration-300">
+                <h2 className="text-2xl font-extralight text-center text-white-800 mb-6">Login-Form</h2>
 
                 {step === 1 && (
                     <div>
-                        <h3 className="text-xl text-gray-600 font-medium mb-4 text-center">Your Username</h3>
+                        <h3 className="text-xl text-white-600 font-medium mb-4 text-center">Your Username</h3>
                         <input
                             type="text"
                             name="name"
